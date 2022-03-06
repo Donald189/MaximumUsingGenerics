@@ -8,11 +8,11 @@ namespace MaxProblemUsingGenerics
         {
             Console.WriteLine("Maximum Number USing Generics\n");
 
-            IntegerMax integerMax = new IntegerMax();
-            integerMax.MaximumInteger(3, 6, 10);
+            //IntegerMax integerMax = new IntegerMax();
+            //integerMax.MaximumInteger(3, 6, 10);
 
-            //FloatMax floatMax = new FloatMax();
-            //floatMax.MaximumFloatNum(6.8,3.9,18.9);
+            FloatMax floatMax = new FloatMax();
+            floatMax.MaximumFloatNum(6.8, 3.9, 18.9);
 
             //StringMax stringMax = new StringMax();
             //stringMax.MaximumString("Apple", "Peach", "Zebra");
